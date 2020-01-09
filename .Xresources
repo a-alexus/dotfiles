@@ -1,0 +1,67 @@
+!! ScrollBar
+
+URxvt.scrollBar: false
+
+!! Transparency and Blur
+
+URxvt.transparent: false
+URxvt.blurRadius: 5
+
+! lower number for shading makes terminal more opaque
+URxvt.shading: 10
+
+!! Fonts
+
+URxvt.font: xft:Hack:size=10 
+URxvt.boldFont: xft:Hack:bold:size=10
+URxvt.italicFont: xft:Hack:italic:size=10
+URxvt.boldItalicFont: xft:Hack:bold:italic:size=10
+
+!! Colours
+
+!*background: #000000
+
+! foreground is text colour
+!*foreground: #E4E7E8
+
+
+! colorBD: Use the specified color to display bold or italic characters when the foreground colour is default
+!*colorBD: #2C4F9B
+
+! colorn where 0-7 are low intensity normal colours and 8-15 are high intensity bright colours
+
+! black low/high intensity
+!*color0: #000000
+!*color8: #000000
+
+! red low/high intensity
+!*color1: #560D07
+!*color9: #560D07
+
+! green low/high intensity
+!*color2: #B01C0C
+!*color10: #B01C0C
+
+! yello low/high intensity
+!*color3: #786AC1
+!*color11: #786AC1
+
+
+! blue low/high intensity
+! 484e55
+!*color4: #2C4F9B
+!*color12: #2C4F9B
+
+! magenta low/high intensity
+!*color5: #251845
+!*color13: #251845
+
+! cyan low/high intensity
+!*color6: #606165
+!*color14: #606165
+ 
+
+! white low/high intensity
+!*color7: #E4E7E8
+!*color15: #E4E7E8
+
