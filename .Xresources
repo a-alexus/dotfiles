@@ -4,11 +4,11 @@ URxvt.scrollBar: false
 
 !! Transparency and Blur
 
-URxvt.transparent: false
-URxvt.blurRadius: 5
+!URxvt.transparent: false
+!URxvt.blurRadius: 5
 
 ! lower number for shading makes terminal more opaque
-URxvt.shading: 10
+!URxvt.shading: 10
 
 !! Fonts
 
@@ -21,47 +21,45 @@ URxvt.boldItalicFont: xft:Hack:bold:italic:size=10
 
 !*background: #000000
 
-! foreground is text colour
-!*foreground: #E4E7E8
-
+!*foreground: #XXXXXX
 
 ! colorBD: Use the specified color to display bold or italic characters when the foreground colour is default
-!*colorBD: #2C4F9B
+!*colorBD: #XXXXXX
 
 ! colorn where 0-7 are low intensity normal colours and 8-15 are high intensity bright colours
 
 ! black low/high intensity
-!*color0: #000000
-!*color8: #000000
+!*color0: #XXXXXX
+!*color8: #XXXXXX
 
 ! red low/high intensity
-!*color1: #560D07
-!*color9: #560D07
+!*color1: #XXXXXX
+!*color9: #XXXXXX
 
 ! green low/high intensity
-!*color2: #B01C0C
-!*color10: #B01C0C
+!*color2: #XXXXXX
+!*color10: #XXXXXX
 
 ! yello low/high intensity
-!*color3: #786AC1
-!*color11: #786AC1
+!*color3: #XXXXXX
+!*color11: #XXXXXX
 
 
 ! blue low/high intensity
 ! 484e55
-!*color4: #2C4F9B
-!*color12: #2C4F9B
+!*color4: #XXXXXX
+!*color12: #XXXXXX
 
 ! magenta low/high intensity
-!*color5: #251845
-!*color13: #251845
+!*color5: #XXXXXX
+!*color13: #XXXXXX
 
 ! cyan low/high intensity
-!*color6: #606165
-!*color14: #606165
+!*color6: #XXXXXX
+!*color14: #XXXXXX
  
 
 ! white low/high intensity
-!*color7: #E4E7E8
-!*color15: #E4E7E8
+!*color7: #XXXXXX
+!*color15: #XXXXXX
 
