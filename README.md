@@ -1,8 +1,8 @@
 # My Dotfiles
 
 ## Dependencies
-	* [i3wm](https://i3wm.org/)
-	* [polybar](https://github.com/polybar/polybar)
-	* [pywal](https://github.com/dylanaraps/pywal)
-	* [neovim](https://github.com/neovim/neovim)
+ * [i3wm](https://i3wm.org/)<br/>
+ * [polybar](https://github.com/polybar/polybar)<br/>
+ * [pywal](https://github.com/dylanaraps/pywal)<br/>
+ * [neovim](https://github.com/neovim/neovim)<br/>
 
