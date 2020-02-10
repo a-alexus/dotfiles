@@ -3,6 +3,7 @@
 ## Dependencies
  * [i3wm](https://i3wm.org/)<br/>
  * [polybar](https://github.com/polybar/polybar)<br/>
+ * [feh](https://feh.finalrewind.org/)
  * [pywal](https://github.com/dylanaraps/pywal)<br/>
  * [neovim](https://github.com/neovim/neovim)<br/>
 	* [vim-plug](https://github.com/junegunn/vim-plug)<br/>
