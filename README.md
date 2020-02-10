@@ -1,4 +1,6 @@
 # My Dotfiles
+![sunset](https://user-images.githubusercontent.com/55568329/74129858-b95b4c00-4c34-11ea-82b4-c28f247fee06.png)
+
 
 ## Dependencies
  * [i3wm](https://i3wm.org/)<br/>
