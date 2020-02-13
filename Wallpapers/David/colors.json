@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/bikura/Wallpapers/David/david.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#091210",
+        "foreground": "#ecc7ec",
+        "cursor": "#ecc7ec"
+    },
+    "colors": {
+        "color0": "#091210",
+        "color1": "#1EE3D9",
+        "color2": "#46AEA9",
+        "color3": "#A796B4",
+        "color4": "#EF54FF",
+        "color5": "#D154FF",
+        "color6": "#E49BE5",
+        "color7": "#ecc7ec",
+        "color8": "#804980",
+        "color9": "#1EE3D9",
+        "color10": "#46AEA9",
+        "color11": "#A796B4",
+        "color12": "#EF54FF",
+        "color13": "#D154FF",
+        "color14": "#E49BE5",
+        "color15": "#ecc7ec"
+    }
+}
