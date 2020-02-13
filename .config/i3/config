@@ -176,6 +176,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Boarders
+for_window [class="^.*"] border pixel 4
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #bar {
@@ -190,10 +193,10 @@ bindsym $mod+r mode "resize"
 # it fails to get colors from Xresources.
 set_from_resource $fg i3wm.color7 #f0f0f0
 set_from_resource $bg i3wm.color0 #f0f0f0
-set_from_resource $grey i3wm.color8
+set_from_resource $fg-alt i3wm.color8
 
 # class                 border  backgr. text indicator child_border
-client.focused          $grey   $grey   $fg  $bg       $grey
+client.focused          $fg-alt $fg-alt $fg  $bg       $fg-alt
 client.focused_inactive $bg  	$bg     $fg  $bg       $bg
 client.unfocused        $bg  	$bg   	$fg  $bg       $bg
 client.urgent           $bg     $bg     $fg  $bg       $bg
