@@ -1,13 +1,6 @@
 # My Dotfiles
 
-### Sunset
-![sunset](https://user-images.githubusercontent.com/55568329/74129858-b95b4c00-4c34-11ea-82b4-c28f247fee06.png)
-
-### Kenami
-![kenami](https://user-images.githubusercontent.com/55568329/74133284-5e2d5780-4c3c-11ea-8a39-a740a2b33e19.png)
-
-### PinkSun
-![pinkSun](https://user-images.githubusercontent.com/55568329/74133503-d09e3780-4c3c-11ea-9a26-cf1dcd6cf59f.png)
+![david](https://user-images.githubusercontent.com/55568329/74489046-282bf400-4f18-11ea-9913-1d9a637f9104.png)
 
 
 ## Dependencies
