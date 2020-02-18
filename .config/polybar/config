@@ -55,8 +55,8 @@ label-unfocused-foreground = ${colors.background-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
-adapter = ADP1
+battery = BAT0
+adapter = AC
 full-at = 98
 
 ;format-charging = <bar-capacity> <label-charging>
