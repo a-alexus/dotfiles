@@ -12,10 +12,10 @@ URxvt.scrollBar: false
 
 !! Fonts
 
-URxvt.font: xft:Hack:size=10 
-URxvt.boldFont: xft:Hack:bold:size=10
-URxvt.italicFont: xft:Hack:italic:size=10
-URxvt.boldItalicFont: xft:Hack:bold:italic:size=10
+URxvt.font: xft:Hack:size=12
+URxvt.boldFont: xft:Hack:bold:size=12
+URxvt.italicFont: xft:Hack:italic:size=12
+URxvt.boldItalicFont: xft:Hack:bold:italic:size=12
 
 !! Colours
 
