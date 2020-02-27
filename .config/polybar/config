@@ -49,7 +49,8 @@ type = internal/i3
 
 format = <label-state> <label-mode>
 
-label-unfocused-foreground = ${colors.background-alt}
+label-focused-foreground = ${colors.foreground-alt}
+label-unfocused-foreground = ${colors.foreground}
 
 ;---------------------------------------------------------;
 
