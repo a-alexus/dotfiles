@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '$HOME/Wallpapers/Sunset/sunset.jpg' 
+feh --bg-fill '/home/bikura/Wallpapers/OverCity/alena-aenami-over-the-city1k.jpg' 
