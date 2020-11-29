@@ -84,14 +84,6 @@ format-full-foreground = ${colors.background-alt}
 ;bar-empty-font = 2
 ;bar-capacity-empty-foreground = ${colors.background-alt}
 
-bar-capacity-width = 10
-bar-capacity-format = %{+u}%{+o}%fill%%empty%%{-u}%{-o}
-bar-capacity-fill = █
-bar-fill-font = 2
-bar-capacity-fill-foreground = ${colors.foreground-alt}
-bar-capacity-empty = █
-bar-empty-font = 2
-bar-capacity-empty-foreground = ${colors.background-alt}
 ;---------------------------------------------------------;
 
 [module/pulseaudio]
