@@ -59,12 +59,30 @@ battery = BAT1
 adapter = ADP1
 full-at = 98
 
-format-charging = <bar-capacity> <label-charging>
-format-discharging = <bar-capacity> <label-discharging>
+;format-charging = <bar-capacity> <label-charging>
+;format-discharging = <bar-capacity> <label-discharging>
 
-label-charging = CHR %percentage%%
+label-charging = %percentage%%
+format-charging-foreground = ${colors.foreground-alt}
+format-charging-prefix = "CHR "
+format-charging-prefix-foreground = ${colors.foreground}
+
 label-discharging = %percentage%%
+format-discharging-foreground = ${colors.foreground-alt}
+format-discharging-prefix = "BAT "
+format-discharging-prefix-foreground = ${colors.foreground}
+
 label-full = FULL
+format-full-foreground = ${colors.background-alt}
+
+;bar-capacity-width = 10
+;bar-capacity-format = %{+u}%{+o}%fill%%empty%%{-u}%{-o}
+;bar-capacity-fill = █
+;bar-fill-font = 2
+;bar-capacity-fill-foreground = ${colors.foreground-alt}
+;bar-capacity-empty = █
+;bar-empty-font = 2
+;bar-capacity-empty-foreground = ${colors.background-alt}
 
 bar-capacity-width = 10
 bar-capacity-format = %{+u}%{+o}%fill%%empty%%{-u}%{-o}
