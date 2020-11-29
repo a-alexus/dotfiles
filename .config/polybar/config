@@ -39,8 +39,6 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
-separator = |
-
 modules-left = i3
 modules-right = wlan battery date
 
