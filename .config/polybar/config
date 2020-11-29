@@ -40,7 +40,7 @@ module-margin-left = 1
 module-margin-right = 1
 
 modules-left = i3
-modules-right = wlan battery date
+modules-right = wlan pulseaudio battery date
 
 ;---------------------------------------------------------;
 
