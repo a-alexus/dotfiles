@@ -3,11 +3,22 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 " Declare the list of plugins
 Plug 'dylanaraps/wal.vim'
+" Used to format tables
+Plug 'godlygeek/tabular'
+Plug 'elzr/vim-json'
+Plug 'plasticboy/vim-markdown'
+
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
 call plug#end()
 
 " set colorscheme to one created with pywal
 colorscheme wal
+
+" Do not use conceal feature
+let g:vim_markdown_conceal = 0
+" Disable header folding
+let g:vim_markdown_folding_diabled = 1
 
 " show line numbers
 set number
