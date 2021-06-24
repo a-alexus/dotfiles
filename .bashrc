@@ -44,10 +44,4 @@ export CLASSPATH=$HOME/Documents/UNSW/3131/Compiler:/usr/local/jasmin/classes:$H
 
 # User specific aliases and functions
 #export PS1="\e[0;33;1m[\u@\h \W]\$ \e[m"
-
-#Import colorscheme from 'wal' asynchronously
-# & Run the process in the background.
-# () Hide shell job control messages.
-(cat ~/.cache/wal/sequences &)
-
 alias config='/usr/bin/git --git-dir=/home/bikura/.cfg/ --work-tree=/home/bikura'
