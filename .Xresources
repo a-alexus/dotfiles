@@ -2,6 +2,13 @@
 
 URxvt.scrollBar: false
 
+!! Borders
+URxvt.internalBorder: 7
+
+!! Cursor
+URxvt.cursorUnderline: 1
+URxvt.cursorColor: #f6955b
+
 !! Transparency and Blur
 
 !URxvt.transparent: false
@@ -19,47 +26,53 @@ URxvt.boldItalicFont: xft:Hack:bold:italic:size=12
 
 !! Colours
 
-!*background: #000000
+*background: #000000
 
-!*foreground: #XXXXXX
+*foreground: #A0A8CD
 
 ! colorBD: Use the specified color to display bold or italic characters when the foreground colour is default
-!*colorBD: #XXXXXX
+*colorBD: #f6955b
+*colorUL: #7199ee
+
 
 ! colorn where 0-7 are low intensity normal colours and 8-15 are high intensity bright colours
 
 ! black low/high intensity
-!*color0: #XXXXXX
-!*color8: #XXXXXX
+*color0: #212234
+*color8: #212234
 
 ! red low/high intensity
-!*color1: #XXXXXX
-!*color9: #XXXXXX
+! Devices 
+*color1: #ee6d85
+*color9: #ee6d85
 
 ! green low/high intensity
-!*color2: #XXXXXX
-!*color10: #XXXXXX
+! Executables
+*color2: #95c561
+*color10: #95c561
 
-! yello low/high intensity
-!*color3: #XXXXXX
-!*color11: #XXXXXX
-
+! yellow low/high intensity
+! Archives
+*color3: #f6955b
+*color11: #f6955b
 
 ! blue low/high intensity
-! 484e55
-!*color4: #XXXXXX
-!*color12: #XXXXXX
+! Directories
+*color4: #7199ee
+*color12: #7199ee
 
 ! magenta low/high intensity
-!*color5: #XXXXXX
-!*color13: #XXXXXX
+! Images and Movies
+*color5: #a485dd
+*color13: #a485dd
 
 ! cyan low/high intensity
-!*color6: #XXXXXX
-!*color14: #XXXXXX
+! Music and Symbolic Links
+*color6: #38a89d
+*color14: #38a89d
  
 
 ! white low/high intensity
-!*color7: #XXXXXX
-!*color15: #XXXXXX
+*color7: #A0A8CD
+*color15: #A0A8CD
 

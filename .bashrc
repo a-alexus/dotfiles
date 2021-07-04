@@ -16,7 +16,7 @@ export PATH
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Go
 export PATH=$PATH:$GOPATH/bin
-export GOROOT=$HOME/Go
+export GOROOT=/usr/local/go/
 
 # add rust to PATH
 . "$HOME/Rust/.cargo/env"
@@ -38,9 +38,9 @@ export PATH=$PGHOME/bin:$PATH
 # for 3131 Compiler project
 export CLASSPATH=$HOME/Documents/UNSW/3131/Compiler:/usr/local/jasmin/classes:$HOME/Documents/UNSW/3131/Compiler/VC/CodeGen:$HOME/Documents/UNSW/3131/DC
 
-
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
+# shell prompt colors
+export PS1="[ \u@\h \[\e[0;93m\]\W\[\e[0m\] ]\$ "
+# Uncomment the following line if you don't like systemctl's auto-paging feature: export SYSTEMD_PAGER=
 
 # User specific aliases and functions
 #export PS1="\e[0;33;1m[\u@\h \W]\$ \e[m"

@@ -191,9 +191,12 @@ for_window [class="^.*"] border pixel 4
 # from the generated scheme.
 # NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
 # it fails to get colors from Xresources.
-set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $fg i3wm.color0 #f0f0f0
 set_from_resource $bg i3wm.color0 #f0f0f0
-set_from_resource $fg-alt i3wm.color8 #f0f0f0
+set_from_resource $fg-alt i3wm.color4 #f0f0f0
+set_from_resource $bg-dmenu i3wm.color8 #f0f0f0
+set_from_resource $fg-dmenu i3wm.color4 #f0f0f0
+set_from_resource $bg-sel-dmenu i3wm.color3 #f0f0f0
 
 # class                 border  backgr. text indicator child_border
 client.focused          $fg-alt $fg-alt $fg  $bg       $fg-alt
@@ -205,7 +208,7 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 client.background       $bg
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -nb "$fg-alt" -nf "$fg" -sb "$bg" -sf "$fg"
+bindsym $mod+d exec dmenu_run -nb "$bg-dmenu" -nf "$fg-dmenu" -sb "$bg-sel-dmenu" -sf "$bg-dmenu"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
