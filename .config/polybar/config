@@ -23,6 +23,7 @@ white = ${xrdb:color7}
 yellow = ${xrdb:color3}
 green = ${xrdb:color2}
 red = ${xrdb:color1}
+lightgrey = #4A5057
 
 ;---------------------------------------------------------;
 
@@ -52,7 +53,7 @@ type = internal/i3
 format = <label-state> <label-mode>
 
 label-focused-foreground = ${colors.yellow}
-label-unfocused-foreground = ${colors.grey}
+label-unfocused-foreground = ${colors.lightgrey}
 
 ;---------------------------------------------------------;
 
