@@ -2,18 +2,17 @@
 call plug#begin('~/.local/share/nvim/site/plugged')
 
 " Declare the list of plugins
-Plug 'dylanaraps/wal.vim'
 " Used to format tables
 Plug 'godlygeek/tabular'
 Plug 'elzr/vim-json'
-Plug 'plasticboy/vim-markdown'
-
+Plug 'tiagovla/tokyodark.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
 call plug#end()
 
-" set colorscheme to one created with pywal
-colorscheme wal
+let g:tokyodark_transparent_background = 1
+set termguicolors
+colorscheme tokyodark
 
 " Do not use conceal feature
 let g:vim_markdown_conceal = 0
