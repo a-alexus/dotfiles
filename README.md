@@ -11,3 +11,4 @@
  * [feh](https://wiki.archlinux.org/index.php/Feh) *sets the desktop wallpaper*<br/>
  * [neovim](https://github.com/neovim/neovim)<br/>
 	* [vim-plug](https://github.com/junegunn/vim-plug)<br/>
+	* [tokyodark.vim](https://github.com/tiagovla/tokyodark.nvim)<br>
